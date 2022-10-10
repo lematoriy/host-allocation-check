@@ -1,6 +1,7 @@
 from pprint import pprint
 from openpyxl import load_workbook
 import re
+import ipaddress
 
 xlsFile = "C:/Work/01_Projects/IMS PP/host allocation check/cm_sz_nolinks.xlsx"
 wb = load_workbook(xlsFile, data_only=True)
